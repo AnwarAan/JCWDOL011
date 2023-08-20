@@ -1,0 +1,27 @@
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.box {
+  text-align: center;
+  border: 1px solid black;
+  width: 800px;
+  padding: 2%;
+}
+
+.button {
+  border-radius: 4px;
+  height: 3rem;
+  width: 10rem;
+  background-color: #337ccf;
+  color: white;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.img {
+  position: relative;
+  width: 600px;
+}
