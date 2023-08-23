@@ -1,0 +1,173 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body {
+  margin: 0px;
+}
+
+section {
+  margin: 6rem 0px;
+}
+
+/* nav {
+  position: sticky;
+} */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5%;
+  position: sticky;
+  top: 0;
+  background: rgba(220, 220, 220, 0.8);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0px 12px;
+}
+
+.nav-container a:hover {
+  text-decoration: underline;
+}
+
+.sec-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30%;
+}
+
+.sec-profile {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sec-skill {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  margin: 2%;
+  width: 8rem;
+}
+
+.skill img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.item {
+  display: flex;
+}
+
+.sec-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience {
+  width: 60%;
+  margin: 2rem 0px;
+  text-align: center;
+}
+
+.sec-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-contact table {
+  border-spacing: 8rem 2rem;
+}
+
+.form-contact {
+  display: flex;
+  width: 40%;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  margin: 0px1rem;
+}
+
+.form label,
+input {
+  margin: 0px;
+}
+
+.sec-contact input {
+  height: 20px;
+  width: 15rem;
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+}
+
+.sec-contact button {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-bottom: 5%;
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  cursor: pointer;
+  align-items: center;
+  transition: 250ms ease-in-out;
+}
+
+.sec-contact button:hover {
+  background-color: gray;
+  transition: 250ms ease-in-out;
+  color: white;
+}
+
+.social-media {
+  margin-top: 5rem;
+}
+
+.sec-contact img {
+  width: 40px;
+}
+
+.sec-contact a {
+  margin: 0px 1rem;
+}
+
+footer {
+  text-align: center;
+  background: rgba(220, 220, 220, 0.8);
+  padding: 2% 0px;
+}

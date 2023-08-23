@@ -1,0 +1,253 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(
+    to left,
+    rgba(240, 240, 240, 1) 0%,
+    rgba(230, 230, 230, 1) 100%
+  );
+}
+
+section {
+  padding: 10rem 0px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(220, 220, 220, 0.5);
+}
+
+.nav-contain a {
+  font-size: 18px;
+}
+
+.nav-contain a:hover {
+  text-decoration: underline;
+}
+
+.brand a {
+  color: rgba(130, 130, 130, 0.9);
+  background-color: #ffd700;
+  border-radius: 100%;
+}
+
+#home {
+  background: linear-gradient(
+    to left,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(240, 240, 240, 1) 100%
+  );
+
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  h2 {
+    margin-top: 1rem;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  td {
+    padding: 0.5rem;
+  }
+
+  td:nth-child(odd) {
+    font-weight: 600;
+  }
+
+  td:nth-child(even) {
+    font-style: italic;
+  }
+
+  table {
+    margin-top: 4rem;
+    text-align: left;
+  }
+
+  input {
+    width: 6rem;
+    height: 2rem;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 250ms ease-in-out;
+  }
+
+  input:hover {
+    font-weight: 900;
+    transition: 250ms ease-in-out;
+    background-color: #ffd700;
+  }
+}
+
+#about {
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+  }
+
+  p {
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+  }
+
+  .card {
+    width: 15rem;
+    height: 20rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: orange;
+    box-shadow: 2px 4px 2px 4px gray;
+
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    h6 {
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 2rem;
+      width: 6rem;
+      height: 2rem;
+      background-color: white;
+      border-radius: 10px;
+      transition: 250ms ease-in-out;
+      align-items: center;
+    }
+
+    button:hover {
+      background-color: yellow;
+      transition: 250ms ease-in-out;
+    }
+  }
+}
+
+.skill {
+  p {
+    font-size: 20px;
+    margin: 5px 0px;
+  }
+
+  img {
+    width: 30px;
+    margin: 5px 0px;
+    margin-right: 10px;
+  }
+
+  h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 2rem 0px;
+  }
+}
+
+.experience {
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  p {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+#contact {
+  background: linear-gradient(
+    to left,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(240, 240, 240, 1) 100%
+  );
+
+  table {
+    margin: auto;
+  }
+
+  input,
+  textarea {
+    width: 15rem;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin: 0.5rem 1rem;
+  }
+
+  td {
+    text-align: left;
+  }
+
+  button {
+    background-color: orange;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    transition: 250ms ease-in-out;
+  }
+
+  button:hover {
+    transition: 250ms ease-in-out;
+    background-color: #ffd700;
+  }
+
+  img {
+    width: 40px;
+    margin: 0px 2rem;
+  }
+
+  legend {
+    font-size: 20px;
+  }
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.textarea {
+  color: red;
+}
+
+.fieldset {
+  border-color: black;
+  border-style: solid;
+}
+
+footer {
+  background: rgba(200, 200, 200, 0.1);
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
